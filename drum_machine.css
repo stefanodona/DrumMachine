@@ -1,0 +1,229 @@
+#bar{
+    display: inline-flex;
+    background-color: #999da0;
+    border-radius: 7px;
+    bottom: -80%;
+    transform: translate(-50%);
+  }
+  
+  .button{
+      width: 40px;
+      height: 70px;   
+      border-radius: 10%;
+      margin: 5px;
+  }
+  
+  .dot{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    background-color: #7c3030;
+    border-radius: 70%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);    
+  }
+  
+  .red{
+    background-color: #fe5532;
+    border: 2px solid #cc7969;
+  }
+  
+  .orange{
+    background-color: #ff8c22;
+    border: 2px solid #f78c23;
+  }
+  
+  .yellow{
+    background-color: #f2dd5a;
+    border: 2px solid #d0c473;
+  }
+  
+  .white{
+    background-color: #f2ede0;
+    border: 2px solid lightgrey;
+  }
+  
+  .black{
+    background-color: black;
+  }
+  
+  .yellow-butt{
+    background-color: #f1d05f;
+  }
+  
+  .center{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .selected-dot{
+    background-color: #ff3044;
+  }
+  
+  .single-channel{
+    position: relative;
+    top: 1px;
+    width: min-content;
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .knob{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: #323131;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 7px;
+  }
+  
+  .indicator{
+    height: 18px;
+    width: 1px;
+    background-color: #f65632;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid #bd4a32;
+  }
+  
+  .text{
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  #case{
+    height: 500px;
+    background-color: #464344;
+    width: min-content;
+    padding: 20px;
+  }
+  
+  .more-margin{
+    margin-bottom: 20px;
+  }
+  
+  #channels{
+    display: inline-flex;
+    width: min-content;
+    position: relative;
+    width: 100%;
+    height: min-content;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%);
+  }
+  
+  .small{
+    width: 50px;
+    height: 13px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: #e0d6a1;
+    font-family: monospace;
+    font-size: 13px;
+    text-align: center;
+    color: #8c7534;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .big-knob{
+    width: 70px;
+    height: 70px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  
+  #tempoKnob{
+    position: relative;
+  }
+  
+  #setting-bar{
+    padding: 10px;
+    display: inline-flex;
+    width: min-content;
+    height: min-content;
+    position: relative;
+    top: -7%;
+  }
+  
+  .big-button{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    color: #a3721d;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;  
+  }
+  
+  .tempo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    height: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  
+  .export{
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+    background-color: #ff3044;
+    position: relative;
+    
+    width: 140px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #kit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    width: 140px;
+    padding: 2px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  #selector{
+    width: min-content;
+    height: min-content;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .big-button-container{
+    width: min-content;
+    height: min-content;
+  }
