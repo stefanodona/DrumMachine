@@ -1,6 +1,7 @@
 var step = 0;
 var timer;
-var speed = 500;
+var Tempo = 120;
+var speed = 60000/Tempo;
 
 function buttonClicked(event) {
     clickedButton = event.target;
@@ -50,6 +51,7 @@ function buttonClicked(event) {
 
   function render() {
     sequenceButtons.forEach(renderDots);
+    document.getElementById("tempo").innerHTML = Tempo;
   }
 
   function renderDots (button, index) {
