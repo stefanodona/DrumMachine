@@ -1,3 +1,7 @@
+var step = 0;
+var timer;
+var speed = 500;
+
 function buttonClicked(event) {
     clickedButton = event.target;
     innerDot = clickedButton.children[0];
@@ -18,7 +22,7 @@ function buttonClicked(event) {
     dot.classList.toggle("selected-dot")
   }
   
-  sequenceButtons=document.querySelectorAll(".button:not(.small):not(.big-button)");
+  sequenceButtons = document.querySelectorAll(".button:not(.small):not(.big-button)");
   instrButtons = document.querySelectorAll(".small");
   patternButtons = document.querySelectorAll(".pattern");
   
@@ -41,4 +45,20 @@ function buttonClicked(event) {
   function setOffAll(item) {
     item.parentElement.children[0].classList.remove("selected-dot");
   }
-  
+
+
+
+  function render() {
+    sequenceButtons.forEach(renderDots);
+  }
+
+  function renderDots (button, index) {
+    button.children[0].classList.toggle("selected-dot", index == step);
+  }
+
+  function updateStep() {
+    step = (step + 1) % bar.children.length;
+    render();
+  }
+
+  setInterval(updateStep, speed);
